@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics on Hugo Apéro</title>
+    <link>/categories/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A starter pack for Bioinformatics enthusiasts written in Spanish</title>
+      <link>/project/gnulinux-and-bash-awk-scripting-boot-camp/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/gnulinux-and-bash-awk-scripting-boot-camp/</guid>
+      <description>This project was developed as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador, where I was instructor and co-organizer.
+Summary     This project aims to create an open educational resource that introduces important concepts for aspiring Bioinformaticians, written in Spanish. Topics included in this resource are:
+ The basics of GNU/Linux Jupyter Lab Terminal usage Text and file processing command-line tools (i.</description>
+    </item>
+    
+    <item>
+      <title>Antiparasitic peptides discovery</title>
+      <link>/project/apps_networks/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/apps_networks/</guid>
+      <description>I have contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Research Group - Universidad San Francisco de Quito, in Ecuador.
+Summary     Antimicrobial peptides (AMPs) are small bioactive compounds, commonly with fewer than 50 amino acids, that have appeared as promising compounds to treat a wide range of diseases such as infections caused by multidrug-resistant bacteria, chronic inflammatory diseases, and some types of cancer.</description>
+    </item>
+    
+    <item>
+      <title>CRBN mutations</title>
+      <link>/project/crbn_mutations/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/crbn_mutations/</guid>
+      <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
+Summary     Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/horizontal_gene_transfer/</guid>
+      <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
+Summary     Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention.</description>
+    </item>
+    
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
+      <link>/project/jaz-myc_coupling/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/jaz-myc_coupling/</guid>
+      <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
+Summary     The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
+    </item>
+    
+    <item>
+      <title>Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana</title>
+      <link>/talk/rsg_argentine_sajib_2020/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/rsg_argentine_sajib_2020/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
+      <link>/talk/iscbsc_webinarseries/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/iscbsc_webinarseries/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Modeling of Protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis      thaliana</title>
+      <link>/talk/-xliii_national_biology_conference_2019/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/-xliii_national_biology_conference_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
+      <link>/talk/rsg_colombia_sc_2019/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/rsg_colombia_sc_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Structural changes due to a mutation in Cereblon might be a cause for intellectual disability</title>
+      <link>/talk/gip_2019/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/gip_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

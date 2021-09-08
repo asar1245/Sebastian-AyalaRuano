@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Similarity searching on Hugo Apéro</title>
+    <link>/categories/similarity-searching/</link>
+    <description>Recent content in Similarity searching on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/similarity-searching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antiparasitic peptides discovery</title>
+      <link>/project/apps_networks/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/apps_networks/</guid>
+      <description>I have contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Research Group - Universidad San Francisco de Quito, in Ecuador.
+Summary     Antimicrobial peptides (AMPs) are small bioactive compounds, commonly with fewer than 50 amino acids, that have appeared as promising compounds to treat a wide range of diseases such as infections caused by multidrug-resistant bacteria, chronic inflammatory diseases, and some types of cancer.</description>
+    </item>
+    
+  </channel>
+</rss>
