@@ -1,7 +1,7 @@
 Personla webpage made with [Hugo Apéro](https://github.com/hugo-apero/) theme of [blogdown](https://github.com/rstudio/blogdown) R package
 ================
 
-View at [sayalaruano.github.io](http://sayalaruano.github.io/cv).
+View at [sayalaruano.github.io](http://sayalaruano.github.io).
 
 ## Structure 
 
