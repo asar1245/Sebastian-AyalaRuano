@@ -18,4 +18,4 @@ If you want to create your own website, I highly recommend to check the book [*b
 
 ## Acknowledgments
 
-Special thanks to [developers of pagedown](https://bookdown.org/yihui/blogdown/author.html) and [Hugo Apéro](https://hugo-apero-docs.netlify.app/about/) theme. 
+Special thanks to [developers of pagedown](https://bookdown.org/yihui/blogdown/author.html) and [Hugo Apéro](https://hugo-apero-docs.netlify.app/about/) theme. It was an oustanding contribution. 
