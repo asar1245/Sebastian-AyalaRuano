@@ -19,10 +19,18 @@ links:
   icon_pack: fas
   name: Oral presentation (Spanish)
   url: https://www.youtube.com/watch?v=NqamWg_24p4
+- icon: play-circle
+  icon_pack: fas
+  name: Oral presentation (English)
+  url: https://www.youtube.com/watch?v=Ukw7HhBRvmo&t=14675s
 - icon: file-powerpoint
   icon_pack: fas
   name: Slides (Spanish)
   url: https://www.researchgate.net/publication/354365990_Modelamiento_de_la_interaccion_proteina-_proteina_y_busqueda_de_residuos_clave_por_aprendizaje_automatico_del_complejo_JAZ-_MYC3_de_Arabidopsis_thaliana
+- icon: file-powerpoint
+  icon_pack: fas
+  name: Slides (English)
+  url: https://www.researchgate.net/publication/356102435_The_molecular_basis_of_JAZ-MYC_coupling_a_protein-protein_interface_essential_for_plant_response_to_stressors
 - icon: comment-dots
   icon_pack: fas
   name: Poster (Spanish)

@@ -8,7 +8,6 @@ categories:
 date: "2021-09-07"
 draft: false
 excerpt: This project aims to create an open educational resource to introduce fundamental concepts of **GNU/Linux**, terminal usage, text and file processing command line tools, **Bash-AWK scripting** with applications in **Bioinformatics**, and **Git-GitHub**, written in Spanish.
-featured: true
 layout: single
 links:
 - icon: door-open
@@ -34,6 +33,8 @@ This project was developed as the reference course material of a boot camp organ
 <p align="center">
   <img src="/img/linux_course.png" width="600" title="AMP">
 </p>
+
+**Figure 1.-** Flyer to advertise the bootcamp. Retrieved from https://rsg-ecuador.github.io/unix.bioinfo.rsgecuador/. 
 
 ## Summary 
 This project aims to create an **open educational resource** that introduces important concepts for aspiring Bioinformaticians, **written in Spanish**. Topics included in this resource are:

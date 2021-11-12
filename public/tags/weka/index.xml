@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weka on Hugo Apéro</title>
-    <link>/tags/weka/</link>
+    <link>https://sayalaruano.github.io/tags/weka/</link>
     <description>Recent content in Weka on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/weka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/weka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
-      <link>/project/jaz-myc_coupling/</link>
+      <link>https://sayalaruano.github.io/project/jaz-myc_coupling/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/jaz-myc_coupling/</guid>
+      <guid>https://sayalaruano.github.io/project/jaz-myc_coupling/</guid>
       <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
 Summary     The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
     </item>

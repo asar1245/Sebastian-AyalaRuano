@@ -2,163 +2,190 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sebastián Ayala Ruano on Hugo Apéro</title>
-    <link>/</link>
+    <link>https://sayalaruano.github.io/</link>
     <description>Recent content in Sebastián Ayala Ruano on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors</title>
+      <link>https://sayalaruano.github.io/talk/br_scs_2021/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/br_scs_2021/</guid>
+      <description>This presentation was awarded as the best oral presentation of the symposium.
+In this section you can find more details about this project.</description>
+    </item>
+    
     <item>
       <title>A starter pack for Bioinformatics enthusiasts written in Spanish</title>
-      <link>/project/gnulinux-and-bash-awk-scripting-boot-camp/</link>
+      <link>https://sayalaruano.github.io/project/gnulinux-and-bash-awk-scripting-boot-camp/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/gnulinux-and-bash-awk-scripting-boot-camp/</guid>
+      <guid>https://sayalaruano.github.io/project/gnulinux-and-bash-awk-scripting-boot-camp/</guid>
       <description>This project was developed as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador, where I was instructor and co-organizer.
+Figure 1.- Flyer to advertise the bootcamp. Retrieved from https://rsg-ecuador.github.io/unix.bioinfo.rsgecuador/.
 Summary     This project aims to create an open educational resource that introduces important concepts for aspiring Bioinformaticians, written in Spanish. Topics included in this resource are:
  The basics of GNU/Linux Jupyter Lab Terminal usage Text and file processing command-line tools (i.</description>
     </item>
     
     <item>
       <title>Antiparasitic peptides discovery</title>
-      <link>/project/apps_networks/</link>
+      <link>https://sayalaruano.github.io/project/apps_networks/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/apps_networks/</guid>
-      <description>I have contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Research Group - Universidad San Francisco de Quito, in Ecuador.
-Summary     Antimicrobial peptides (AMPs) are small bioactive compounds, commonly with fewer than 50 amino acids, that have appeared as promising compounds to treat a wide range of diseases such as infections caused by multidrug-resistant bacteria, chronic inflammatory diseases, and some types of cancer.</description>
+      <guid>https://sayalaruano.github.io/project/apps_networks/</guid>
+      <description>I have contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador.
+Summary     Antimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses.</description>
     </item>
     
     <item>
       <title>Corn Disease Detector</title>
-      <link>/project/corndiseasedetector/</link>
+      <link>https://sayalaruano.github.io/project/corndiseasedetector/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/corndiseasedetector/</guid>
+      <guid>https://sayalaruano.github.io/project/corndiseasedetector/</guid>
       <description>This project was built as a final group assignment during the Saturdays AI Quito 2021 artificial intelligence workshop.
+Figure 1.- Logo of the Corn Disease Detector project. Retrieved from https://corndiseasedetector.github.io/.
 Background     Infectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato.</description>
     </item>
     
     <item>
       <title>CRBN mutations</title>
-      <link>/project/crbn_mutations/</link>
+      <link>https://sayalaruano.github.io/project/crbn_mutations/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/crbn_mutations/</guid>
+      <guid>https://sayalaruano.github.io/project/crbn_mutations/</guid>
       <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
 Summary     Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
     </item>
     
     <item>
-      <title>Horizontal gene transfer between arthropods and bacteria</title>
-      <link>/project/horizontal_gene_transfer/</link>
+      <title>Drug discovery project to classify ligands that bind to Beta-Lactamases</title>
+      <link>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/horizontal_gene_transfer/</guid>
+      <guid>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</guid>
+      <description>I developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this initiative, a collaborative Open Bioinformatics Research Project that is still in progress.
+Figure 1.- 3D-structure of a betalactamase (PDB ID: 2q9n). Retrieved from https://commons.wikimedia.org/wiki/File:PDB_2q9n_EBI.png. Used under a CC0 licence.
+Background     This project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>https://sayalaruano.github.io/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/horizontal_gene_transfer/</guid>
       <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
 Summary     Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention.</description>
     </item>
     
     <item>
       <title>Kolekti</title>
-      <link>/project/kolekti/</link>
+      <link>https://sayalaruano.github.io/project/kolekti/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/kolekti/</guid>
+      <guid>https://sayalaruano.github.io/project/kolekti/</guid>
       <description>This project was developed as the result of the Innovation challenge For more data on labor informality hackaton, organized by Datalat, PNUD Ecuador, UN Women Ecuador, and the International Labour Organization.
+Figure 1.- Logo of the Kolekti project. Retrieved from https://kolekti-304615.web.app/.
 The hackaton     The Innovation challenge For more data on labor informality hackaton searched for a technological solution to collect labor informality data in Ecuador. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.</description>
     </item>
     
     <item>
       <title>Sentiment analysis of Ecuadorian political tweets from 2021 elections</title>
-      <link>/project/ecuadorian_elections_2021_sentiment_analysis/</link>
+      <link>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
+      <guid>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
       <description>This project was developed as a final group assignment during the Artificial Intelligence course at my bachelor, which I took as requirement for obtaining of my minor in Systems Engineering.
-Summary     In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral.</description>
+Figure 1.- Natural Language Processing illustration. Retrieved from https://thenounproject.com/term/natural-language-processing/3261011/. Used under a CC-BY 4.0 licence.
+Summary     In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz).</description>
     </item>
     
     <item>
       <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
-      <link>/project/jaz-myc_coupling/</link>
+      <link>https://sayalaruano.github.io/project/jaz-myc_coupling/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/jaz-myc_coupling/</guid>
+      <guid>https://sayalaruano.github.io/project/jaz-myc_coupling/</guid>
       <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
 Summary     The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
     </item>
     
     <item>
       <title>Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana</title>
-      <link>/talk/rsg_argentine_sajib_2020/</link>
+      <link>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/talk/rsg_argentine_sajib_2020/</guid>
+      <guid>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
-      <link>/talk/iscbsc_webinarseries/</link>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/talk/iscbsc_webinarseries/</guid>
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>Modeling of Protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis      thaliana</title>
-      <link>/talk/-xliii_national_biology_conference_2019/</link>
+      <link>https://sayalaruano.github.io/talk/-xliii_national_biology_conference_2019/</link>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/-xliii_national_biology_conference_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/-xliii_national_biology_conference_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
-      <link>/talk/rsg_colombia_sc_2019/</link>
+      <link>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/rsg_colombia_sc_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>Structural changes due to a mutation in Cereblon might be a cause for intellectual disability</title>
-      <link>/talk/gip_2019/</link>
+      <link>https://sayalaruano.github.io/talk/gip_2019/</link>
       <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/gip_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/gip_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>https://sayalaruano.github.io/contact/</link>
       <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>https://sayalaruano.github.io/contact/</guid>
       <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.
 Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
     </item>
     
     <item>
       <title>License</title>
-      <link>/license/</link>
+      <link>https://sayalaruano.github.io/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/license/</guid>
-      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
-  </description>
+      <guid>https://sayalaruano.github.io/license/</guid>
+      <description>All the contents of this webpage are publicly available under open source licenses.
+Images, data, and contents are made available under a CC-BY license, while software are made available under an MIT license.
+The license text listed below is re-used under a CC-BY license from The Carpentries community materials about Reproducible Science Curriculum.
+Contents, images and data     All documentation and materials in this webpage are made available under the Creative Commons Attribution license.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publications/</link>
+      <link>https://sayalaruano.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publications/</guid>
+      <guid>https://sayalaruano.github.io/publications/</guid>
       <description>Peer reviewed journal articles       Oña-Chuquimarca, S., Ayala-Ruano, S., Goossens, Pauwels, L., Goossens, A., Leon-Reyes, A., &amp;amp; Méndez, M. A (2020). The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors. Frontiers in Plant Science, 11, 1139. doi: 10.3389/fpls.2020.01139 .
  This article was chosen to feature in the Frontiers in Plant Science 2020 highlights e-book collection. doi: 10.3389/978-2-88966-723-9    Ayala‐Ruano, S.</description>
     </item>

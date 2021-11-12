@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Hugo Apéro</title>
-    <link>/blog/</link>
+    <link>https://sayalaruano.github.io/blog/</link>
     <description>Recent content in Blog on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://sayalaruano.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

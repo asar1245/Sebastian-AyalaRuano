@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for publish personal website with GitPages
+# Script for publish personal website with GitHubPages
 # GitHub username.
 USERNAME=sayalaruano
 # Name of the branch containing the Hugo source files.

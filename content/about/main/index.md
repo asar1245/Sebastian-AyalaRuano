@@ -6,14 +6,14 @@ use_featured: true # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  My research experience has been primarily focused on **Phylogenetics** and **Structural Bioinformatics** to understand different biological phenomena, but now I am transitioning to **Network Science**, **Complex Systems**, and **Machine Learning** for drug discovery. 
+  My research experience has been primarily focused on **Phylogenetics** and **Structural Bioinformatics** to understand different biological phenomena, but now I am transitioning to **Network Science**, and **Machine Learning** for drug discovery. 
 
-  Throughout the last year, I have been part of some initiatives to boost Bioinformatics in Ecuador through the creation of the first [Regional Student Group from the International Society for Computational Biology Student Council in my country](https://rsg-ecuador.iscbsc.org/). Also, I am participating in some regional projects with people from different countries of Lain America. 
+  Throughout the last year, I have been part of some initiatives to boost Bioinformatics in Ecuador through the creation of the first [Regional Student Group from the International Society for Computational Biology Student Council in my country](https://rsg-ecuador.iscbsc.org/). Also, I am participating in some regional projects with people from different countries of Latin America.
 
   Some of my recent projects are presented below. 
 show_outro: true
 outro: |
-  Thank you for visiting. Feel free to [contact me](/contact) if you found some interesting content and want to know more details.
+  Thank you for visiting my webpage. Feel free to [contact me](/contact) if you found some interesting content and want to know more details.
 ---
 
 ** index doesn't contain a body, just front matter above.

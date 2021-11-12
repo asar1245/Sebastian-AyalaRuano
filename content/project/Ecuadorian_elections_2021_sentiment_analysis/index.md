@@ -26,6 +26,8 @@ This project was developed as a final group assignment during the Artificial Int
   <img src="/img/nlp.png" width="350" title="AMP">
 </p>
 
+**Figure 1.-** Natural Language Processing illustration. Retrieved from https://thenounproject.com/term/natural-language-processing/3261011/. Used under a CC-BY 4.0 licence.
+
 ## Summary
 
 In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral. The training dataset was obtained from the    [Workshop on Semantic Analysis at SEPLN (TASS)](http://tass.sepln.org/) of 2020, 2019, and 2012. Thus, we joined together data of the three editions in one dataset that had information about the id, text, and sentiment associated with tweets. Due to privacy politics we can not share the datasets here, but you can register in this [page](http://tass.sepln.org/2020/?page_id=74) and yo will access all datasets.

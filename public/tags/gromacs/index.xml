@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gromacs on Hugo Apéro</title>
-    <link>/tags/gromacs/</link>
+    <link>https://sayalaruano.github.io/tags/gromacs/</link>
     <description>Recent content in Gromacs on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/gromacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/gromacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRBN mutations</title>
-      <link>/project/crbn_mutations/</link>
+      <link>https://sayalaruano.github.io/project/crbn_mutations/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/crbn_mutations/</guid>
+      <guid>https://sayalaruano.github.io/project/crbn_mutations/</guid>
       <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
 Summary     Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
     </item>
     
     <item>
       <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
-      <link>/project/jaz-myc_coupling/</link>
+      <link>https://sayalaruano.github.io/project/jaz-myc_coupling/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/jaz-myc_coupling/</guid>
+      <guid>https://sayalaruano.github.io/project/jaz-myc_coupling/</guid>
       <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
 Summary     The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
     </item>

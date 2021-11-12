@@ -25,6 +25,8 @@ This project was developed as the result of the Innovation challenge *For more d
   <img src="/img/kolekti.png" width="600" title="AMP">
 </p>
 
+**Figure 1.-** Logo of the Kolekti project. Retrieved from https://kolekti-304615.web.app/.
+
 ## The hackaton  
 
 The Innovation challenge *For more data on labor informality* hackaton searched for a **technological solution to collect labor informality data in Ecuador**. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.

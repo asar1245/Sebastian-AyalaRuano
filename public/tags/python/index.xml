@@ -2,39 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Hugo Apéro</title>
-    <link>/tags/python/</link>
+    <link>https://sayalaruano.github.io/tags/python/</link>
     <description>Recent content in Python on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corn Disease Detector</title>
-      <link>/project/corndiseasedetector/</link>
+      <link>https://sayalaruano.github.io/project/corndiseasedetector/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/corndiseasedetector/</guid>
+      <guid>https://sayalaruano.github.io/project/corndiseasedetector/</guid>
       <description>This project was built as a final group assignment during the Saturdays AI Quito 2021 artificial intelligence workshop.
+Figure 1.- Logo of the Corn Disease Detector project. Retrieved from https://corndiseasedetector.github.io/.
 Background     Infectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato.</description>
     </item>
     
     <item>
       <title>CRBN mutations</title>
-      <link>/project/crbn_mutations/</link>
+      <link>https://sayalaruano.github.io/project/crbn_mutations/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/crbn_mutations/</guid>
+      <guid>https://sayalaruano.github.io/project/crbn_mutations/</guid>
       <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
 Summary     Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
     </item>
     
     <item>
-      <title>Sentiment analysis of Ecuadorian political tweets from 2021 elections</title>
-      <link>/project/ecuadorian_elections_2021_sentiment_analysis/</link>
+      <title>Drug discovery project to classify ligands that bind to Beta-Lactamases</title>
+      <link>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
+      <guid>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</guid>
+      <description>I developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this initiative, a collaborative Open Bioinformatics Research Project that is still in progress.
+Figure 1.- 3D-structure of a betalactamase (PDB ID: 2q9n). Retrieved from https://commons.wikimedia.org/wiki/File:PDB_2q9n_EBI.png. Used under a CC0 licence.
+Background     This project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis of Ecuadorian political tweets from 2021 elections</title>
+      <link>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
       <description>This project was developed as a final group assignment during the Artificial Intelligence course at my bachelor, which I took as requirement for obtaining of my minor in Systems Engineering.
-Summary     In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral.</description>
+Figure 1.- Natural Language Processing illustration. Retrieved from https://thenounproject.com/term/natural-language-processing/3261011/. Used under a CC-BY 4.0 licence.
+Summary     In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz).</description>
     </item>
     
   </channel>

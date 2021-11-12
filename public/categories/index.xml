@@ -2,143 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hugo Apéro</title>
-    <link>/categories/</link>
+    <link>https://sayalaruano.github.io/categories/</link>
     <description>Recent content in Categories on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioinformatics</title>
-      <link>/categories/bioinformatics/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://sayalaruano.github.io/categories/bioinformatics/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/bioinformatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>/categories/computer-vision/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>/categories/education/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genomics</title>
-      <link>/categories/genomics/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/genomics/</guid>
+      <guid>https://sayalaruano.github.io/categories/bioinformatics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>/categories/machine-learning/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://sayalaruano.github.io/categories/machine-learning/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/machine-learning/</guid>
+      <guid>https://sayalaruano.github.io/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Molecular Dynamics</title>
-      <link>/categories/molecular-dynamics/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://sayalaruano.github.io/categories/molecular-dynamics/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/molecular-dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Natural Language Processing</title>
-      <link>/categories/natural-language-processing/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/natural-language-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network Science</title>
-      <link>/categories/network-science/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/network-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>/categories/programming/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantum mechanics</title>
-      <link>/categories/quantum-mechanics/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/quantum-mechanics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Similarity searching</title>
-      <link>/categories/similarity-searching/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/similarity-searching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structural Bioinformatics</title>
-      <link>/categories/structural-bioinformatics/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/structural-bioinformatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web development</title>
-      <link>/categories/web-development/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/web-development/</guid>
+      <guid>https://sayalaruano.github.io/categories/molecular-dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oral presentation</title>
-      <link>/categories/oral-presentation/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://sayalaruano.github.io/categories/oral-presentation/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/oral-presentation/</guid>
+      <guid>https://sayalaruano.github.io/categories/oral-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural Bioinformatics</title>
+      <link>https://sayalaruano.github.io/categories/structural-bioinformatics/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/structural-bioinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://sayalaruano.github.io/categories/computer-vision/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drug discovery</title>
+      <link>https://sayalaruano.github.io/categories/drug-discovery/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/drug-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://sayalaruano.github.io/categories/education/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomics</title>
+      <link>https://sayalaruano.github.io/categories/genomics/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>https://sayalaruano.github.io/categories/natural-language-processing/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Science</title>
+      <link>https://sayalaruano.github.io/categories/network-science/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/network-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://sayalaruano.github.io/categories/programming/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum mechanics</title>
+      <link>https://sayalaruano.github.io/categories/quantum-mechanics/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/quantum-mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Similarity searching</title>
+      <link>https://sayalaruano.github.io/categories/similarity-searching/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/similarity-searching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web development</title>
+      <link>https://sayalaruano.github.io/categories/web-development/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/categories/web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poster presentation</title>
-      <link>/categories/poster-presentation/</link>
+      <link>https://sayalaruano.github.io/categories/poster-presentation/</link>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/poster-presentation/</guid>
+      <guid>https://sayalaruano.github.io/categories/poster-presentation/</guid>
       <description></description>
     </item>
     

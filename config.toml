@@ -1,10 +1,12 @@
-baseURL = "/"
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`
+baseURL = "https://sayalaruano.github.io/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Hugo Apéro"
 author = "Alison Hill"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = ""
+googleAnalytics = "UA-212436276-1"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩

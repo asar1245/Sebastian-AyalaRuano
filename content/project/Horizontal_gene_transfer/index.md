@@ -45,7 +45,7 @@ I worked on this project during a summer research internship in 2018 at the [Bio
   <img src="/img/coral_of_life.png" width="600" title="AMP">
 </p>
 
-**Figure 1.-** The prototype of the Coral of Life. Retrieved from [Podani, 2019, Evolutionary Biology](https://link.springer.com/article/10.1007%2Fs11692-019-09474-w). 
+**Figure 1.-** The prototype of the Coral of Life. Retrieved from [Podani, 2019, Evolutionary Biology](https://link.springer.com/article/10.1007%2Fs11692-019-09474-w).
 
 Thus, we studied the impact of HGT in the S. clavuligerus genome. To perform this task, we applied **whole-genome analysis** to identify a laterally transferred sequence from different domains. The most relevant result was a putative **antimicrobial peptide** (AMP) with a clear origin in the Hymenoptera order of insects. 
 

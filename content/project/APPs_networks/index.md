@@ -5,38 +5,60 @@ categories:
 - Network Science
 - Similarity searching
 - Bioinformatics
+- Drug discovery
 date: "2021-09-07"
 draft: false
-excerpt: This project is about the exploration of the **antiparasitic peptides chemical space** and prediction of new potential compounds through a new approach based on **network science**, **similarity searching**, and **unsupervised learning algorithms**.
-featured: true
+excerpt: This project is about the exploration of the **antiparasitic peptides' chemical space** and prediction of new potential compounds through a new approach based on **network science** and **similarity searching**.
 layout: single
 links:
+- icon: newspaper
+  icon_pack: fas
+  name: Preprint
+  url: https://doi.org/10.33774/chemrxiv-2021-tgv69
 
 subtitle: ""
 tags:
 - Antimicrobial peptides
-- Drug discovery
 title: Antiparasitic peptides discovery
 ---
 
-I have contributed to this project as part of my work as **research assistant** at the **Applied Signal Processing and Machine Learning Research Group** - Universidad San Francisco de Quito, in Ecuador. 
+I have contributed to this project as part of my work as **research assistant** at the **Applied Signal Processing and Machine Learning Group** and the and the **Grupo de Medicina Molecular y Traslacional** - Universidad San Francisco de Quito, in Ecuador. 
 
 ## Summary
 
-**Antimicrobial peptides** (AMPs) are small bioactive compounds, commonly with fewer than 50 amino acids, that have appeared as promising compounds to treat a wide range of diseases such as **infections caused by multidrug-resistant bacteria**, **chronic inflammatory diseases**, and some types of **cancer**. The effectiveness of AMPs resides on the wide range of mechanisms they can use for both killing microbes and modulating immune responses that depend on their concentration and dose, external stimuli, target cell or tissue, administration mechanism, host microbiota, and so forth. 
+**Antimicrobial peptides** (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the **AMPs’ chemical space** (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.
 
 <p align="center">
-  <img src="/img/peptide2.png" width="370" title="AMP">
+  <img src="/img/graph_sum.svg" width="650" title="graph_summary">
 </p>
 
-There are multiple sources to retrieve AMPs, including natural compounds produced as part of the immune system of different organisms, synthetic peptides derived from natural compounds, cryptic peptides obtained from proteomes or microbiomes using bioinformatics methods, mass spectrometry-based proteomics experiments with fragmentation techniques, among others. So, **AMPs chemical space** (AMPCS) is huge, it is estimated that **there exist more than 1065 unique sequences of peptides with 50 residues or fewer**, which represent a big challenge for the discovery of new promising compounds and the identification of common features, motifs, or relevant biological functions shared by these compounds. Exploring the AMPCS and relevant biological features by trial-and-error experiments is practically impossible, so a rational approach is a must. In this context, **computational-aided pipelines have been proposed as efficient alternatives to do high-throughput screening of AMPs**.
+**Figure 1.-** Graphical Abstract of the Antiparasitic peptides discovery project. Retrieved from [Ayala-Ruano, et al., 2021, ChemRxiv](https://doi.org/10.33774/chemrxiv-2021-tgv69). 
+
+We have taken advantage of network-based representation of **APPs’ chemical space** (APPCS) to retrieve valuable information, using three types of networks: **chemical space** (CSN), **half-space proximal** (HSPN), and **metadata** (METN). 
 
 <p align="center">
-  <img src="/img/computers.jpg" width="370" title="AMP">
+  <img src="/img/Networks.svg" width="700" title="Networks">
 </p>
 
-In this scenario, we present a new approach based on **network science**,      **similarity searching**, and **unsupervised learning algorithms**. to discover new potential AMPs, specifically **antiparasitic peptides** (APPs). We have taken advantage of network-based representation of APPs chemical space to retrieve valuable information, using **chemical space networks** (CSNs), **half-space proximal networks** (HSPNs), and **multi-layer networks** with APPs and metadata. Some centrality measures were applied to identify the most important nodes, and these compounds were taken as queries against the graph database [starPepDB](http://mobiosd-hub.com/starpep/) that contains 45,120 compounds, to discover new potential APPs using similarity searching. We evaluated the model performance with [validated datasets of APPs and non-APPs](https://biocom-ampdiscover.cicese.mx/dataset) using some metrics such as accuracy, precision, recall, F1 score, and AUROC. Then, we compared the performance metrics of our model with [AMPDiscover](https://biocom-ampdiscover.cicese.mx/) and [AMPFun](http://fdblab.csie.ncu.edu.tw/AMPfun/index.html) machine learning APP prediction servers. Surprisingly, **the model proposed in this study outperformed the machine learning approaches with statistically significant differences**, showing the enormous potential of this strategy. After applying our method and additional filters, we proposed 95 lead compounds as potential APPs that have not been associated with this activity until now. In addition, we explored sequence similarities and motifs shared by these compounds, which can serve as templates to fund new promising APPs.
+**Figure 2.-** Networks of the Antiparasitic peptides discovery project. Modified from [Ayala-Ruano, et al., 2021, ChemRxiv](https://doi.org/10.33774/chemrxiv-2021-tgv69).
+
+Some centrality measures were applied to identify the most important and non-redundant nodes, and these peptides were taken as queries against the graph database [starPepDB](http://mobiosd-hub.com/starpep/) to discover new potential APPs with similarity searching by group fusion (MAX-SIM rule) models. We evaluated the **multi-query similarity searching models** (mQSSMs) performance with five benchmarking data sets of APP/non-APPs. It can be stated that the predictions performed by the best mQSSMs presented a strong-to-very strong predictive agreement since their external **Matthews correlation coefficient values ranged from 0.834 to 0.965**.  Then, we compared the performance metrics of our mQSSMs with machine learning APP prediction servers [AMPDiscover](https://biocom-ampdiscover.cicese.mx/) and [AMPFun](http://fdblab.csie.ncu.edu.tw/AMPfun/index.html).The model proposed in this report outperformed the machine learning approaches with statistically significant differences, showing the enormous potential of this method.
 
 <p align="center">
-  <img src="/img/network.png" width="370" title="AMP">
+  <img src="/img/mQSMM.png" width="600" title="mQSMM">
 </p>
+
+**Figure 3.-** Workflow corresponding to the similarity searching modeling process. Modified from [Ayala-Ruano, et al., 2021, ChemRxiv](https://doi.org/10.33774/chemrxiv-2021-tgv69).
+
+
+After applying our method and additional filters, we proposed **95 repurposed leads as potential APPs**, which have not been associated with this activity until now. In addition, we explored **sequence similarities and motifs** shared by these peptides, which can serve as templates for searching and designing new promising APPs. The analyses showed that the similarity models proposed in this study could contribute to identifying APPs with high effectivity and reliability. Our models and pipeline are freely available through the [starPep toolbox software](http://mobiosd-hub.com/starpep).
+
+<p align="center">
+  <img src="/img/leads_obt.svg" width="500" title="leads_obtention">
+</p>
+
+**Figure 4.-** Filtering  workflow  to  obtain  the  new  potential  APPs. Obtained from [Ayala-Ruano, et al., 2021, ChemRxiv](https://doi.org/10.33774/chemrxiv-2021-tgv69).
+
+## Citation 
+
+**Ayala-Ruano S**, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2021). **Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching**. ChemRxiv [Preprint]. doi: [doi.org/10.33774/chemrxiv-2021-tgv69](https://doi.org/10.33774/chemrxiv-2021-tgv69).

@@ -2,53 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Hugo Apéro</title>
-    <link>/talk/</link>
+    <link>https://sayalaruano.github.io/talk/</link>
     <description>Recent content in Talks on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors</title>
+      <link>https://sayalaruano.github.io/talk/br_scs_2021/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/br_scs_2021/</guid>
+      <description>This presentation was awarded as the best oral presentation of the symposium.
+In this section you can find more details about this project.</description>
+    </item>
+    
     <item>
       <title>Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana</title>
-      <link>/talk/rsg_argentine_sajib_2020/</link>
+      <link>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/talk/rsg_argentine_sajib_2020/</guid>
+      <guid>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
-      <link>/talk/iscbsc_webinarseries/</link>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/talk/iscbsc_webinarseries/</guid>
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>Modeling of Protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis      thaliana</title>
-      <link>/talk/-xliii_national_biology_conference_2019/</link>
+      <link>https://sayalaruano.github.io/talk/-xliii_national_biology_conference_2019/</link>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/-xliii_national_biology_conference_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/-xliii_national_biology_conference_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
-      <link>/talk/rsg_colombia_sc_2019/</link>
+      <link>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/rsg_colombia_sc_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     
     <item>
       <title>Structural changes due to a mutation in Cereblon might be a cause for intellectual disability</title>
-      <link>/talk/gip_2019/</link>
+      <link>https://sayalaruano.github.io/talk/gip_2019/</link>
       <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/gip_2019/</guid>
+      <guid>https://sayalaruano.github.io/talk/gip_2019/</guid>
       <description>In this section you can find more details about this project.</description>
     </item>
     

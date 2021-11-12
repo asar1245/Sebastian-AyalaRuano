@@ -16,6 +16,6 @@ title: Publications
 
 - Castillo-Vilcahuaman, C., Valdivia C., Osorio-Mogollón C., Silva-Andrade, C., Puche, R., **Ayala‐Ruano, S.**, Cuesta-Astroz, Y.,  Parra, G (2020). **4th ISCB Latin American Student Council Symposium: a virtual  and inclusive experience during COVID19 times**. *F1000Research*, 9.  doi: [10.12688/f1000research.28330.1](https://f1000research.com/articles/9-1460/v1).
 
-### Peer-reviewed Conference Proceedings
+### Preprints
 
-- Oña-Chuquimarca, S., **Ayala-Ruano, S.**, Gallardo, S., & Méndez, M. A. (2019). **Uncovering JAZ-MYC biochemical and structural interactions**, International work-conference on Bioinformatics and biomedical engineering (IWBBIO 2019). Proceedings Extended abstracts, pp. 155–158. Granada, Spain: *Editorial Godel S.L*. ISBN: [978-8417293-94-9](https://www.worldcat.org/isbn/9788417293949)
+- **Ayala-Ruano S**, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2021). **Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching**. ChemRxiv [Preprint]. doi: [doi.org/10.33774/chemrxiv-2021-tgv69](https://doi.org/10.33774/chemrxiv-2021-tgv69).

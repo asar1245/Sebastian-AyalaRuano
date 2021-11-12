@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Hugo Apéro</title>
-    <link>/tags/javascript/</link>
+    <link>https://sayalaruano.github.io/tags/javascript/</link>
     <description>Recent content in JavaScript on Hugo Apéro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kolekti</title>
-      <link>/project/kolekti/</link>
+      <link>https://sayalaruano.github.io/project/kolekti/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/kolekti/</guid>
+      <guid>https://sayalaruano.github.io/project/kolekti/</guid>
       <description>This project was developed as the result of the Innovation challenge For more data on labor informality hackaton, organized by Datalat, PNUD Ecuador, UN Women Ecuador, and the International Labour Organization.
+Figure 1.- Logo of the Kolekti project. Retrieved from https://kolekti-304615.web.app/.
 The hackaton     The Innovation challenge For more data on labor informality hackaton searched for a technological solution to collect labor informality data in Ecuador. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.</description>
     </item>
     
