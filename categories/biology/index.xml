@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biology on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/categories/biology/</link>
+    <description>Recent content in Biology on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/categories/biology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard of weekly reports of SARS-CoV2 variants in European countries</title>
+      <link>https://sayalaruano.github.io/project/covid19-dashboard/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/covid19-dashboard/</guid>
+      <description>I created this dashboard for the 30DaysOfStreamlit challenge using the streamlit Python package.
+Figure 1.- SARS-CoV-2 illustration. Retrieved from https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png. Used under a CC0 licence.
+Summary In this dashboard, you can select a country in the sidebar, and a year and week in the the main page to show the available data of SARS-CoV2 variants from European countries.
+The screenshot below shows what this dashboard looks like:
+Dataset The entire dataset is available here.</description>
+    </item>
+    
+  </channel>
+</rss>

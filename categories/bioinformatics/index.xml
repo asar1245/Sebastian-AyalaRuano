@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/categories/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antiparasitic peptides discovery</title>
+      <link>https://sayalaruano.github.io/project/apps_networks/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/apps_networks/</guid>
+      <description>I contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador.
+Summary Antimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of antimicrobial peptides using machine learning classifiers</title>
+      <link>https://sayalaruano.github.io/project/amps_ml_pred/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/amps_ml_pred/</guid>
+      <description>I developed this project as the Capstone assignment for the Machine Learning Zoomcamp.
+Figure 1.- 3D-structure of an antimicrobial peptide.
+Background Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR).</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo</title>
+      <link>https://sayalaruano.github.io/project/herrcompbioinfo/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/herrcompbioinfo/</guid>
+      <description>This project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects.
+Figure 1.- HerrCompBioinfo logo. Retrieved from https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html. Used under a CC BY-SA 4 licence.
+Summary In general, Bioinformatics is the application of computational tools to understand biological data.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</title>
+      <link>https://sayalaruano.github.io/talk/scs_2022/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/scs_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</title>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2022/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo: An open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish</title>
+      <link>https://sayalaruano.github.io/talk/ols4_2022/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/ols4_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a protein-protein interface essential for plant response to stressors</title>
+      <link>https://sayalaruano.github.io/talk/br_scs_2021/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/br_scs_2021/</guid>
+      <description>This presentation was awarded as the best oral presentation of the symposium.
+In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>CRBN mutations</title>
+      <link>https://sayalaruano.github.io/project/crbn_mutations/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/crbn_mutations/</guid>
+      <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
+Summary Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>https://sayalaruano.github.io/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/horizontal_gene_transfer/</guid>
+      <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
+Summary Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of potential drug ligands that bind to Beta-Lactamases</title>
+      <link>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</guid>
+      <description>I developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this initiative, a collaborative Open Bioinformatics Research Project that is still in progress.
+Figure 1.- 3D-structure of a betalactamase (PDB ID: 2q9n). Retrieved from https://commons.wikimedia.org/wiki/File:PDB_2q9n_EBI.png. Used under a CC0 licence.
+Background This project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases.</description>
+    </item>
+    
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
+      <link>https://sayalaruano.github.io/project/jaz-myc_coupling/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/jaz-myc_coupling/</guid>
+      <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
+Summary The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
+    </item>
+    
+    <item>
+      <title>Modeling of protein-protein interaction and search for key residues by machine learning of the JAZ-MYC3 complex of Arabidopsis thaliana</title>
+      <link>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/rsg_argentine_sajib_2020/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Modeling of Protein-protein interaction and search for key residues by machine learning of a protein complex in the jasmonic acid route in Arabidopsis      thaliana</title>
+      <link>https://sayalaruano.github.io/talk/xliii_national_biology_conference_2019/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/xliii_national_biology_conference_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
+      <link>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Structural changes due to a mutation in Cereblon might be a cause for intellectual disability</title>
+      <link>https://sayalaruano.github.io/talk/gip_2019/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/gip_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

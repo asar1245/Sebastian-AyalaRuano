@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/categories/programming/</link>
+    <description>Recent content in Programming on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard of weekly reports of SARS-CoV2 variants in European countries</title>
+      <link>https://sayalaruano.github.io/project/covid19-dashboard/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/covid19-dashboard/</guid>
+      <description>I created this dashboard for the 30DaysOfStreamlit challenge using the streamlit Python package.
+Figure 1.- SARS-CoV-2 illustration. Retrieved from https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png. Used under a CC0 licence.
+Summary In this dashboard, you can select a country in the sidebar, and a year and week in the the main page to show the available data of SARS-CoV2 variants from European countries.
+The screenshot below shows what this dashboard looks like:
+Dataset The entire dataset is available here.</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo</title>
+      <link>https://sayalaruano.github.io/project/herrcompbioinfo/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/herrcompbioinfo/</guid>
+      <description>This project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects.
+Figure 1.- HerrCompBioinfo logo. Retrieved from https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html. Used under a CC BY-SA 4 licence.
+Summary In general, Bioinformatics is the application of computational tools to understand biological data.</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo: An open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish</title>
+      <link>https://sayalaruano.github.io/talk/ols4_2022/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/ols4_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Kolekti</title>
+      <link>https://sayalaruano.github.io/project/kolekti/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/kolekti/</guid>
+      <description>This project was developed as the result of the Innovation challenge For more data on labor informality hackaton, organized by Datalat, PNUD Ecuador, UN Women Ecuador, and the International Labour Organization.
+Figure 1.- Logo of the Kolekti project. Retrieved from https://kolekti-304615.web.app/.
+The hackaton The Innovation challenge For more data on labor informality hackaton searched for a technological solution to collect labor informality data in Ecuador. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.</description>
+    </item>
+    
+    <item>
+      <title>Kolekti</title>
+      <link>https://sayalaruano.github.io/talk/challenge_labor_informality/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/challenge_labor_informality/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

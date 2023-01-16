@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.108.0">
+<title>Prediction of antimicrobial peptides using machine learning classifiers | Sebastián Ayala Ruano</title>
+
+
+<meta property="twitter:site" content="@sayalaruano">
+<meta property="twitter:creator" content="@sayalaruano">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="I created machine learning classifiers to predict the antimicrobial activity of peptides. It was an end-to-end project in which I did the data pre-processing, feature engineering, training, hyperparameter tuning, and deployment of the best model as a web application with Streamlit.">
+
+
+<meta property="og:site_name" content="Sebastián Ayala Ruano">
+<meta property="og:title" content="Prediction of antimicrobial peptides using machine learning classifiers | Sebastián Ayala Ruano">
+<meta property="og:description" content="I created machine learning classifiers to predict the antimicrobial activity of peptides. It was an end-to-end project in which I did the data pre-processing, feature engineering, training, hyperparameter tuning, and deployment of the best model as a web application with Streamlit." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://sayalaruano.github.io/project/amps_ml_pred/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://sayalaruano.github.io/project/amps_ml_pred/featured-hex.png" >
+        <meta property="twitter:card" content="summary">
+        <meta name="twitter:image" content="https://sayalaruano.github.io/project/amps_ml_pred/featured-hex.png" >
+    
+    
+  <meta itemprop="name" content="Prediction of antimicrobial peptides using machine learning classifiers">
+<meta itemprop="description" content="I developed this project as the Capstone assignment for the Machine Learning Zoomcamp.
+Figure 1.- 3D-structure of an antimicrobial peptide.
+Background Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR)."><meta itemprop="datePublished" content="2023-01-14T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-14T00:00:00+00:00" />
+<meta itemprop="wordCount" content="815"><meta itemprop="image" content="https://sayalaruano.github.io/project/amps_ml_pred/featured-hex.png">
+<meta itemprop="keywords" content="Antimicrobial peptides,Python," />
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-212436276-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/network.ico" type="image/x-icon">
+  <link rel="icon" href="/img/network.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.508aa34bb4fa7ebfddd6892a4ec251e1ce46ad0e0c5be6380abc84336f01b14e.css" integrity="sha256-UIqjS7T6fr/d1okqTsJR4c5GrQ4MW&#43;Y4CryEM28BsU4=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.1effab2e2d6117ba17d795bb5c81866ed135c5655f159a52c2b8dacea0faf821.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://sayalaruano.github.io/" title="Home">
+      <img src="/img/network.png" class="dib db-l h2 w-auto" alt="Sebastián Ayala Ruano">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Projects">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="https://sayalaruano.github.io/cv/" title="CV">CV</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/blog/" title="Blog">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Prediction of antimicrobial peptides using machine learning classifiers</h1>
+        
+        
+        <p class="f7 db mv0 ttu">January 14, 2023</p>
+
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://github.com/sayalaruano/CapstoneProject-MLZoomCamp" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>Code</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://ampredst.streamlit.app/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>Web application</a>
+
+
+      </div>
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>I developed this project as the Capstone assignment for the 
+<a href="https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp" target="_blank" rel="noopener">Machine Learning Zoomcamp</a>.</p>
+<p align="center">
+  <img src="/img/peptide.png" width="500" title="AMP">
+</p>
+<p><strong>Figure 1.-</strong> 3D-structure of an antimicrobial peptide.</p>
+
+
+
+
+<h2 id="background">Background
+  <a href="#background"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>
+<a href="https://en.wikipedia.org/wiki/Antimicrobial_peptides" target="_blank" rel="noopener">Antimicrobial peptides</a> (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR). According to the World Health Organization, AMR is one of the 
+<a href="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance" target="_blank" rel="noopener">top ten global public health threats facing humanity in this century</a>, so it is important to search for AMPs that combat these superbugs and prevent AMR.</p>
+<p>However, the search for AMPs to combat superbugs by experimental methods is unfeasible because of the huge number of these compounds. So, it is required to explore other methods for handling this problem, and machine learning models could be great candidates for this task. Thus, in this project, I created some machine learning binary classifiers to predict the activity of antimicrobial peptides.</p>
+<p>For this work, I took as a reference the 
+<a href="https://github.com/dataprofessor/peptide-ml" target="_blank" rel="noopener">notebook</a> and 
+<a href="https://www.youtube.com/watch?v=0NrFIGLwW0Q&amp;feature=youtu.be" target="_blank" rel="noopener">video</a> from 
+<a href="https://github.com/dataprofessor" target="_blank" rel="noopener">Dataprofessor</a> about this topic. Also, the datasets, some ideas and reference datasets to compare the performance of the best model were obtained from this 
+<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00251" target="_blank" rel="noopener">article</a>.</p>
+
+
+
+
+<h2 id="dataset">Dataset
+  <a href="#dataset"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The 
+<a href="https://biocom-ampdiscover.cicese.mx/dataset" target="_blank" rel="noopener">dataset</a> for this project consists of text files (in FASTA format) with sequences of active and non-active AMPs. The active AMPs were obtained by experimental assays, while the non-active peptides were derived from computational methods. The following table summarizes the dataset partitions and the number of instances in each one.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Dataset partition</th>
+<th>Size</th>
+<th>AMPs</th>
+<th>non-AMPs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Training</td>
+<td>19548</td>
+<td>9781</td>
+<td>9767</td>
+</tr>
+<tr>
+<td style="text-align:center">Test</td>
+<td>4656</td>
+<td>2095</td>
+<td>2561</td>
+</tr>
+<tr>
+<td style="text-align:center">External</td>
+<td>13888</td>
+<td>3117</td>
+<td>10771</td>
+</tr>
+</tbody>
+</table>
+<p>AMPs can have more than one activity, including antibacterial, antifungal, antiparasitic, antiviral, among others. Training and Test partitions have active AMPs with a single activity, while the external partition has AMPs with more than one activity and it represents a real scenario of virtual screening with much more non-active AMPs than the active ones. You can find more details about these datasets in this 
+<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00251" target="_blank" rel="noopener">article</a>.</p>
+<p>Also, I chose these benchmark datasets to compare the performance metrics of our best models with the results of other methods reported in this 
+<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00251" target="_blank" rel="noopener">article</a>.</p>
+
+
+
+
+<h2 id="data-preparation-and-feature-matrix">Data preparation and feature matrix
+  <a href="#data-preparation-and-feature-matrix"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The feature matrices to train machine learning models were obtained by calculating some molecular features from the amino acid sequences of AMPs. These features were obtained with the 
+<a href="https://github.com/raghavagps/Pfeature" target="_blank" rel="noopener">Pfeature</a> Python library.</p>
+<p>For this work, I calculated ten features that require only input and output files as parameters. These features are summarized in the table below.</p>
+<table>
+<thead>
+<tr>
+<th>Feature class</th>
+<th>Description</th>
+<th>Python Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AAC</td>
+<td>Amino acid composition</td>
+<td>aac_wp</td>
+</tr>
+<tr>
+<td>ABC</td>
+<td>Atom and bond composition</td>
+<td>atc_wp, btc_wp</td>
+</tr>
+<tr>
+<td>PCP</td>
+<td>Physico-chemical properties</td>
+<td>pcp_wp</td>
+</tr>
+<tr>
+<td>RRI</td>
+<td>Repetitive Residue Information</td>
+<td>rri_wp</td>
+</tr>
+<tr>
+<td>DDR</td>
+<td>Distance distribution of residues</td>
+<td>ddr_wp</td>
+</tr>
+<tr>
+<td>SEP</td>
+<td>Shannon entropy</td>
+<td>sep_wp</td>
+</tr>
+<tr>
+<td>SER</td>
+<td>Shannon entropy of residue level</td>
+<td>ser_wp</td>
+</tr>
+<tr>
+<td>SPC</td>
+<td>Shannon entropy of physicochemical property</td>
+<td>spc_wp</td>
+</tr>
+<tr>
+<td>CTC</td>
+<td>Conjoint Triad Calculation</td>
+<td>ctc_wp</td>
+</tr>
+<tr>
+<td>CTD</td>
+<td>Composition enhanced transition distribution</td>
+<td>ctd_wp</td>
+</tr>
+</tbody>
+</table>
+<p>To know the details of these features and the entire Python library, you can read the 
+<a href="https://webs.iiitd.edu.in/raghava/pfeature/Pfeature_Manual.pdf" target="_blank" rel="noopener">Pfeature Manual</a>.</p>
+<p>Also, I used the 
+<a href="https://github.com/weizhongli/cdhit" target="_blank" rel="noopener">CD-HIT</a> software to remove the redundant sequences of the AMPs.</p>
+
+
+
+
+<h2 id="machine-learning-models">Machine Learning Models
+  <a href="#machine-learning-models"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>First, I tested more than 30 ML binary classifiers using the 
+<a href="https://github.com/shankarpandala/lazypredict" target="_blank" rel="noopener">LazyPredict</a> Python library. I chose the best models according to some performance metrics such as accuracy, ROC AUC, precision, recall, F1 score, and Matthews Correlation Coefficient (MCC). Then, I fine-tuned the hyperparameters of the best models using sklearn&rsquo;s class 
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV" target="_blank" rel="noopener">GridSearchCV</a>. Finally, considering the results of hyperparameter tuning and performance metrics, I obtained the best ML model to predict AMPs activity.</p>
+
+
+
+
+<h2 id="results-of-the-best-ml-model">Results of the best ML model
+  <a href="#results-of-the-best-ml-model"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The best model was ExtraTreesClassifier with <code>max_depth</code> of 50 and <code>n_estimators</code> of 200 as hyperparameters (the others were set as default), and <code>Amino acid Composition</code> (aac_wp) as feature matrix.</p>
+<p>The performance metrics of this model on test and external datasets are presented below.</p>
+<table>
+<thead>
+<tr>
+<th>Performance metric</th>
+<th>Test dataset</th>
+<th>External dataset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ROC AUC</td>
+<td>0.90</td>
+<td>0.90</td>
+</tr>
+<tr>
+<td>Accuracy</td>
+<td>0.90</td>
+<td>0.92</td>
+</tr>
+<tr>
+<td>Precision</td>
+<td>0.94</td>
+<td>0.79</td>
+</tr>
+<tr>
+<td>Recall</td>
+<td>0.85</td>
+<td>0.86</td>
+</tr>
+<tr>
+<td>F1score</td>
+<td>0.89</td>
+<td>0.82</td>
+</tr>
+<tr>
+<td>MCC</td>
+<td>0.81</td>
+<td>0.77</td>
+</tr>
+</tbody>
+</table>
+<p>According to the evaluation results of our best model on test and external datasets, it is performing quite well. This 
+<a href="https://pubs.acs.org/doi/full/10.1021/acs.jcim.1c00251" target="_blank" rel="noopener">article</a> evaluated many the state of the art ML models for predicting AMPs using the same test and external datasets, and surprisingly the performance metrics of our model are very close to the results of the best ML models reported on this study.</p>
+
+
+
+
+<h2 id="web-application">Web application
+  <a href="#web-application"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Using the best ML model, I created 
+<a href="https://ampredst.streamlit.app/" target="_blank" rel="noopener">AMPredST</a>, a web application that allows users to predict the antimicrobial activity and general properties of AMPs. The code for this web application is available in this 
+<a href="https://github.com/sayalaruano/AMPredST" target="_blank" rel="noopener">GitHub repository</a>.</p>
+
+
+
+
+<h2 id="additional-information">Additional information
+  <a href="#additional-information"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The complete information regarding the exploratory data analysis and selection of the best model, training and validation python scripts, hypterparameter tuning, and further details are available on the 
+<a href="https://github.com/sayalaruano/CapstoneProject-MLZoomCamp" target="_blank" rel="noopener">GitHub repository</a> of this project.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 14, 2023</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 815 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://sayalaruano.github.io/categories/drug-discovery">Drug Discovery</a>  <a href="https://sayalaruano.github.io/categories/machine-learning">Machine Learning</a>  <a href="https://sayalaruano.github.io/categories/bioinformatics">Bioinformatics</a>  <a href="https://sayalaruano.github.io/categories/streamlit">Streamlit</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://sayalaruano.github.io/tags/antimicrobial-peptides">Antimicrobial peptides</a>  <a href="https://sayalaruano.github.io/tags/python">Python</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/project/apps_networks/">Antiparasitic peptides discovery</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/scs_2022/">Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/iscbsc_webinarseries_2022/">Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://sayalaruano.github.io/project/covid19-dashboard/">&larr; Dashboard of weekly reports of SARS-CoV2 variants in European countries</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://sayalaruano.github.io/project/herrcompbioinfo/">HerrCompBioinfo &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2023 Sebastián Ayala Ruano
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/sayalaruano" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/sayalaruano" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/sayalaruano" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=QbDzPWMAAAAJ&amp;hl=en&amp;oi=ao%20" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.researchgate.net/profile/Sebastian-Ayala-Ruano" title="researchgate" target="_blank" rel="noopener">
+      <i class="fab fa-researchgate fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0001-9756-6745" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="https://github.com/sayalaruano/sayalaruano.github.io" title="Source code">Source code</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+      <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+    
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

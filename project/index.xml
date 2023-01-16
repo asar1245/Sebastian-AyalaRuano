@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/project/</link>
+    <description>Recent content in Projects on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction of the phenological stages of tropical forest species using herbarium records</title>
+      <link>https://sayalaruano.github.io/project/phenology_ml/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/phenology_ml/</guid>
+      <description>I contributed to this project as part of my work as data scientist consultant at Universidad de las Américas, in Ecuador.
+Summary The initial species list comprised 636 unique names, which were filtered to delete duplicates and records identified at a genus level. The final list comprised 438 accepted names verified based on the Checklist of the Vascular Plants of the Americas (CVPA), publicly available on a website on the Missouri Botanical Garden database Tropicos.</description>
+    </item>
+    
+    <item>
+      <title>Antiparasitic peptides discovery</title>
+      <link>https://sayalaruano.github.io/project/apps_networks/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/apps_networks/</guid>
+      <description>I contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador.
+Summary Antimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard of weekly reports of SARS-CoV2 variants in European countries</title>
+      <link>https://sayalaruano.github.io/project/covid19-dashboard/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/covid19-dashboard/</guid>
+      <description>I created this dashboard for the 30DaysOfStreamlit challenge using the streamlit Python package.
+Figure 1.- SARS-CoV-2 illustration. Retrieved from https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png. Used under a CC0 licence.
+Summary In this dashboard, you can select a country in the sidebar, and a year and week in the the main page to show the available data of SARS-CoV2 variants from European countries.
+The screenshot below shows what this dashboard looks like:
+Dataset The entire dataset is available here.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of antimicrobial peptides using machine learning classifiers</title>
+      <link>https://sayalaruano.github.io/project/amps_ml_pred/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/amps_ml_pred/</guid>
+      <description>I developed this project as the Capstone assignment for the Machine Learning Zoomcamp.
+Figure 1.- 3D-structure of an antimicrobial peptide.
+Background Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR).</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo</title>
+      <link>https://sayalaruano.github.io/project/herrcompbioinfo/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/herrcompbioinfo/</guid>
+      <description>This project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects.
+Figure 1.- HerrCompBioinfo logo. Retrieved from https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html. Used under a CC BY-SA 4 licence.
+Summary In general, Bioinformatics is the application of computational tools to understand biological data.</description>
+    </item>
+    
+    <item>
+      <title>Corn Disease Detector</title>
+      <link>https://sayalaruano.github.io/project/corndiseasedetector/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/corndiseasedetector/</guid>
+      <description>This project was built as a final group assignment during the Saturdays AI Quito 2021 artificial intelligence workshop.
+Figure 1.- Logo of the Corn Disease Detector project. Retrieved from https://corndiseasedetector.github.io/.
+Background Infectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato.</description>
+    </item>
+    
+    <item>
+      <title>CRBN mutations</title>
+      <link>https://sayalaruano.github.io/project/crbn_mutations/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/crbn_mutations/</guid>
+      <description>I worked on this project during the Global Intern Program 2019, a summer research internship at the Tumor Metabolism and Therapeutic Oncology Laboratory - Gwangju Institute of Science and Technology, in South Korea. Also, my bachelor thesis was about this research topic.
+Summary Cereblon protein (CRBN) is the receptor for substrates that bind to the CRL4CRBN E3 ubiquitin ligase complex, whose function is to control the selective degradation of proteins during various cellular processes.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>https://sayalaruano.github.io/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/horizontal_gene_transfer/</guid>
+      <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
+Summary Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species.</description>
+    </item>
+    
+    <item>
+      <title>Kolekti</title>
+      <link>https://sayalaruano.github.io/project/kolekti/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/kolekti/</guid>
+      <description>This project was developed as the result of the Innovation challenge For more data on labor informality hackaton, organized by Datalat, PNUD Ecuador, UN Women Ecuador, and the International Labour Organization.
+Figure 1.- Logo of the Kolekti project. Retrieved from https://kolekti-304615.web.app/.
+The hackaton The Innovation challenge For more data on labor informality hackaton searched for a technological solution to collect labor informality data in Ecuador. In the first stage of this challenge, there were 39 proposals from 80 interdisciplinary teams.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of potential drug ligands that bind to Beta-Lactamases</title>
+      <link>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/betalactamase_drug_discovery/</guid>
+      <description>I developed this project as the Midterm assignment for the Machine Learning Zoomcamp. Data Professor proposed the idea and dataset of this initiative, a collaborative Open Bioinformatics Research Project that is still in progress.
+Figure 1.- 3D-structure of a betalactamase (PDB ID: 2q9n). Retrieved from https://commons.wikimedia.org/wiki/File:PDB_2q9n_EBI.png. Used under a CC0 licence.
+Background This project aims to evaluate the activity of molecules that have been experimentally tested to bind or not bind to Beta-Lactamases.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis of Ecuadorian political tweets from 2021 elections</title>
+      <link>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
+      <description>This project was developed as a final group assignment during the Artificial Intelligence course at my bachelor, which I took as requirement for obtaining of my minor in Systems Engineering.
+Figure 1.- Natural Language Processing illustration. Retrieved from https://thenounproject.com/term/natural-language-processing/3261011/. Used under a CC-BY 4.0 licence.
+Summary In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral.</description>
+    </item>
+    
+    <item>
+      <title>The molecular basis of JAZ-MYC coupling, a key component of plant immunity</title>
+      <link>https://sayalaruano.github.io/project/jaz-myc_coupling/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/jaz-myc_coupling/</guid>
+      <description>I worked on this project during my bachelor, collaborating as undergraduate researcher at the Computational and Theoretical Chemistry Group - Universidad San Francisco de Quito, in Ecuador.
+Summary The jasmonic acid (JA) signaling pathway is one of the primary mechanisms that allow plants to respond to a variety of biotic and abiotic stressors. Within this pathway, the JAZ repressor proteins and the basic helix-loop-helix (bHLH) transcription factor MYC3 play a critical role.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HerrCompBioinfo</title>
+      <link>https://sayalaruano.github.io/project/herrcompbioinfo/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/herrcompbioinfo/</guid>
+      <description>This project started as the reference course material of a boot camp organized by RSG Ecuador and iGEM Ecuador. Then, we extended this project by participating in the 4th cohort of Open Life Science, an initiative to learn how to create and manage open projects.
+Figure 1.- HerrCompBioinfo logo. Retrieved from https://rsg-ecuador.github.io/HerrCompBioinfo/Bienvenida.html. Used under a CC BY-SA 4 licence.
+Summary In general, Bioinformatics is the application of computational tools to understand biological data.</description>
+    </item>
+    
+    <item>
+      <title>HerrCompBioinfo: An open-source educational resource of computational tools for Bioinformatics enthusiasts written in Spanish</title>
+      <link>https://sayalaruano.github.io/talk/ols4_2022/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/ols4_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

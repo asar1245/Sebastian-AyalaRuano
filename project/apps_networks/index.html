@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.108.0">
+<title>Antiparasitic peptides discovery | Sebastián Ayala Ruano</title>
+
+
+<meta property="twitter:site" content="@sayalaruano">
+<meta property="twitter:creator" content="@sayalaruano">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="This project was about the exploration of the **antiparasitic peptides&#39; chemical space** and prediction of new potential compounds through a new approach based on **network science** and **similarity searching**.">
+
+
+<meta property="og:site_name" content="Sebastián Ayala Ruano">
+<meta property="og:title" content="Antiparasitic peptides discovery | Sebastián Ayala Ruano">
+<meta property="og:description" content="This project was about the exploration of the **antiparasitic peptides&#39; chemical space** and prediction of new potential compounds through a new approach based on **network science** and **similarity searching**." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://sayalaruano.github.io/project/apps_networks/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://sayalaruano.github.io/project/apps_networks/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://sayalaruano.github.io/project/apps_networks/featured.png" >
+    
+    
+  <meta itemprop="name" content="Antiparasitic peptides discovery">
+<meta itemprop="description" content="I contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador.
+Summary Antimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses."><meta itemprop="datePublished" content="2023-01-14T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-14T00:00:00+00:00" />
+<meta itemprop="wordCount" content="514"><meta itemprop="image" content="https://sayalaruano.github.io/project/apps_networks/featured.png">
+<meta itemprop="keywords" content="Antimicrobial peptides," />
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-212436276-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/network.ico" type="image/x-icon">
+  <link rel="icon" href="/img/network.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.508aa34bb4fa7ebfddd6892a4ec251e1ce46ad0e0c5be6380abc84336f01b14e.css" integrity="sha256-UIqjS7T6fr/d1okqTsJR4c5GrQ4MW&#43;Y4CryEM28BsU4=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.1effab2e2d6117ba17d795bb5c81866ed135c5655f159a52c2b8dacea0faf821.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://sayalaruano.github.io/" title="Home">
+      <img src="/img/network.png" class="dib db-l h2 w-auto" alt="Sebastián Ayala Ruano">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Projects">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="https://sayalaruano.github.io/cv/" title="CV">CV</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/blog/" title="Blog">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Antiparasitic peptides discovery</h1>
+        
+        
+        <p class="f7 db mv0 ttu">January 14, 2023</p>
+
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://doi.org/10.1021/acsomega.2c03398" target="_blank" rel="noopener"><i class="fas fa-newspaper fa-lg fa-fw mr2"></i>Publication</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://doi.org/10.33774/chemrxiv-2021-tgv69" target="_blank" rel="noopener"><i class="fas fa-newspaper fa-lg fa-fw mr2"></i>Preprint</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://doi.org/10.5281/zenodo.6582881" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint fa-lg fa-fw mr2"></i>Slides (English)</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://www.youtube.com/watch?v=cpcXCdlG1F4" target="_blank" rel="noopener"><i class="fas fa-play-circle fa-lg fa-fw mr2"></i>Oral presentation (English)</a>
+
+
+      </div>
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>I contributed to this project as part of my work as <strong>research assistant</strong> at the <strong>Applied Signal Processing and Machine Learning Group</strong> and the and the <strong>Grupo de Medicina Molecular y Traslacional</strong> - Universidad San Francisco de Quito, in Ecuador.</p>
+
+
+
+
+<h2 id="summary">Summary
+  <a href="#summary"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>Antimicrobial peptides</strong> (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses. However, the <strong>AMPs’ chemical space</strong> (AMPCS) is huge, it is estimated that there exist more than 10^65 unique sequences of peptides with 50 residues or fewer, which represent a big challenge for the discovery of new promising sequences and the identification of common features, motifs, or relevant biological functions shared by these peptides. Therefore, we present a new approach based on network science and similarity searching to discover new potential AMPs, specifically antiparasitic peptides (APPs). The graphical summary of this research is presented below.</p>
+<p align="center">
+  <img src="/img/graph_sum.svg" width="650" title="graph_summary">
+</p>
+<p><strong>Figure 1.-</strong> Graphical Abstract of the Antiparasitic peptides discovery project. Retrieved from 
+<a href="https://doi.org/10.33774/chemrxiv-2021-tgv69" target="_blank" rel="noopener">Ayala-Ruano, et al., 2021, ChemRxiv</a>.</p>
+<p>We have taken advantage of network-based representation of <strong>APPs’ chemical space</strong> (APPCS) to retrieve valuable information, using three types of networks: <strong>chemical space</strong> (CSN), <strong>half-space proximal</strong> (HSPN), and <strong>metadata</strong> (METN).</p>
+<p align="center">
+  <img src="/img/Networks.svg" width="700" title="Networks">
+</p>
+<p><strong>Figure 2.-</strong> Networks of the Antiparasitic peptides discovery project. Modified from 
+<a href="https://doi.org/10.33774/chemrxiv-2021-tgv69" target="_blank" rel="noopener">Ayala-Ruano, et al., 2021, ChemRxiv</a>.</p>
+<p>Some centrality measures were applied to identify the most important and non-redundant nodes, and these peptides were taken as queries against the graph database 
+<a href="http://mobiosd-hub.com/starpep/" target="_blank" rel="noopener">starPepDB</a> to discover new potential APPs with similarity searching by group fusion (MAX-SIM rule) models. We evaluated the <strong>multi-query similarity searching models</strong> (mQSSMs) performance with five benchmarking data sets of APP/non-APPs. It can be stated that the predictions performed by the best mQSSMs presented a strong-to-very strong predictive agreement since their external <strong>Matthews correlation coefficient values ranged from 0.834 to 0.965</strong>.  Then, we compared the performance metrics of our mQSSMs with machine learning APP prediction servers 
+<a href="https://biocom-ampdiscover.cicese.mx/" target="_blank" rel="noopener">AMPDiscover</a> and 
+<a href="http://fdblab.csie.ncu.edu.tw/AMPfun/index.html" target="_blank" rel="noopener">AMPFun</a>.The model proposed in this report outperformed the machine learning approaches with statistically significant differences, showing the enormous potential of this method.</p>
+<p align="center">
+  <img src="/img/mQSMM.png" width="600" title="mQSMM">
+</p>
+<p><strong>Figure 3.-</strong> Workflow corresponding to the similarity searching modeling process. Modified from 
+<a href="https://doi.org/10.33774/chemrxiv-2021-tgv69" target="_blank" rel="noopener">Ayala-Ruano, et al., 2021, ChemRxiv</a>.</p>
+<p>After applying our method and additional filters, we proposed <strong>95 repurposed leads as potential APPs</strong>, which have not been associated with this activity until now. In addition, we explored <strong>sequence similarities and motifs</strong> shared by these peptides, which can serve as templates for searching and designing new promising APPs. The analyses showed that the similarity models proposed in this study could contribute to identifying APPs with high effectivity and reliability. Our models and pipeline are freely available through the 
+<a href="http://mobiosd-hub.com/starpep" target="_blank" rel="noopener">starPep toolbox software</a>.</p>
+<p align="center">
+  <img src="/img/leads_obt.svg" width="500" title="leads_obtention">
+</p>
+<p><strong>Figure 4.-</strong> Filtering  workflow  to  obtain  the  new  potential  APPs. Obtained from 
+<a href="https://doi.org/10.33774/chemrxiv-2021-tgv69" target="_blank" rel="noopener">Ayala-Ruano, et al., 2021, ChemRxiv</a>.</p>
+
+
+
+
+<h2 id="citation">Citation
+  <a href="#citation"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>Ayala-Ruano S.</strong>, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2022). <strong>Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</strong>. <em>ACS omega</em>. doi: 
+<a href="https://doi.org/10.1021/acsomega.2c03398" target="_blank" rel="noopener">doi.org/10.1021/acsomega.2c03398</a>.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 14, 2023</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">3 minute read, 514 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://sayalaruano.github.io/categories/network-science">Network Science</a>  <a href="https://sayalaruano.github.io/categories/similarity-searching">Similarity searching</a>  <a href="https://sayalaruano.github.io/categories/bioinformatics">Bioinformatics</a>  <a href="https://sayalaruano.github.io/categories/drug-discovery">Drug discovery</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://sayalaruano.github.io/tags/antimicrobial-peptides">Antimicrobial peptides</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/project/amps_ml_pred/">Prediction of antimicrobial peptides using machine learning classifiers</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/scs_2022/">Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/iscbsc_webinarseries_2022/">Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://sayalaruano.github.io/project/phenology_ml/">&larr; Prediction of the phenological stages of tropical forest species using herbarium records</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://sayalaruano.github.io/project/covid19-dashboard/">Dashboard of weekly reports of SARS-CoV2 variants in European countries &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2023 Sebastián Ayala Ruano
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/sayalaruano" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/sayalaruano" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/sayalaruano" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=QbDzPWMAAAAJ&amp;hl=en&amp;oi=ao%20" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.researchgate.net/profile/Sebastian-Ayala-Ruano" title="researchgate" target="_blank" rel="noopener">
+      <i class="fab fa-researchgate fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0001-9756-6745" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="https://github.com/sayalaruano/sayalaruano.github.io" title="Source code">Source code</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+      <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+    
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>
