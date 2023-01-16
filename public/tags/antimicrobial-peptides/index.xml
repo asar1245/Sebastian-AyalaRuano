@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antimicrobial peptides on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/tags/antimicrobial-peptides/</link>
+    <description>Recent content in Antimicrobial peptides on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/antimicrobial-peptides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antiparasitic peptides discovery</title>
+      <link>https://sayalaruano.github.io/project/apps_networks/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/apps_networks/</guid>
+      <description>I contributed to this project as part of my work as research assistant at the Applied Signal Processing and Machine Learning Group and the and the Grupo de Medicina Molecular y Traslacional - Universidad San Francisco de Quito, in Ecuador.
+Summary Antimicrobial peptides (AMPs) are small bioactive chemicals that have appeared as promising compounds to treat a wide range of diseases. The effectiveness of AMPs resides in the wide range of mechanisms they can use for both killing microbes and modulating immune responses.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of antimicrobial peptides using machine learning classifiers</title>
+      <link>https://sayalaruano.github.io/project/amps_ml_pred/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/amps_ml_pred/</guid>
+      <description>I developed this project as the Capstone assignment for the Machine Learning Zoomcamp.
+Figure 1.- 3D-structure of an antimicrobial peptide.
+Background Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR).</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</title>
+      <link>https://sayalaruano.github.io/talk/scs_2022/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/scs_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching</title>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2022/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2022/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>https://sayalaruano.github.io/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/horizontal_gene_transfer/</guid>
+      <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
+Summary Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
+      <link>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

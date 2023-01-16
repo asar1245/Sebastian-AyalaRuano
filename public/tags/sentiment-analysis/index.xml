@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentiment analysis on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/tags/sentiment-analysis/</link>
+    <description>Recent content in Sentiment analysis on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sentiment analysis of Ecuadorian political tweets from 2021 elections</title>
+      <link>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/ecuadorian_elections_2021_sentiment_analysis/</guid>
+      <description>This project was developed as a final group assignment during the Artificial Intelligence course at my bachelor, which I took as requirement for obtaining of my minor in Systems Engineering.
+Figure 1.- Natural Language Processing illustration. Retrieved from https://thenounproject.com/term/natural-language-processing/3261011/. Used under a CC-BY 4.0 licence.
+Summary In this project, we captured sentiments of replies to tweets from two Ecuadorian presidential candidates in the 2021 elections (@LassoGuillermo and @ecuarauz). A model of neural networks was used to classify tweets considering their sentiment as positive, negative, or neutral.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Streamlit on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/categories/streamlit/</link>
+    <description>Recent content in Streamlit on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/categories/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard of weekly reports of SARS-CoV2 variants in European countries</title>
+      <link>https://sayalaruano.github.io/project/covid19-dashboard/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/covid19-dashboard/</guid>
+      <description>I created this dashboard for the 30DaysOfStreamlit challenge using the streamlit Python package.
+Figure 1.- SARS-CoV-2 illustration. Retrieved from https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png. Used under a CC0 licence.
+Summary In this dashboard, you can select a country in the sidebar, and a year and week in the the main page to show the available data of SARS-CoV2 variants from European countries.
+The screenshot below shows what this dashboard looks like:
+Dataset The entire dataset is available here.</description>
+    </item>
+    
+    <item>
+      <title>Prediction of antimicrobial peptides using machine learning classifiers</title>
+      <link>https://sayalaruano.github.io/project/amps_ml_pred/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/amps_ml_pred/</guid>
+      <description>I developed this project as the Capstone assignment for the Machine Learning Zoomcamp.
+Figure 1.- 3D-structure of an antimicrobial peptide.
+Background Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. These superbugs are not treatable with the available drugs because of the development of some mechanisms to avoid the action of these compounds, which is known as antimicrobial resistance (AMR).</description>
+    </item>
+    
+  </channel>
+</rss>

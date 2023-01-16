@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evolution on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/tags/evolution/</link>
+    <description>Recent content in Evolution on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/evolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Horizontal gene transfer between arthropods and bacteria</title>
+      <link>https://sayalaruano.github.io/project/horizontal_gene_transfer/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/project/horizontal_gene_transfer/</guid>
+      <description>I worked on this project during a summer research internship in 2018 at the Bio-Chemoinformatics Group - Universidad de Las Américas, in Ecuador.
+Summary Streptomyces clavuligerus is a Gram-positive bacterium that is a high producer of secondary metabolites with industrial applications. The production of antibiotics such as clavulanic acid or cephamycin has been extensively studied in this species; nevertheless, other aspects, such as evolution or ecology, have received less attention. Furthermore, genes that arise from ancient events of lateral transfer have been demonstrated to be implicated in important functions of host species.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of horizontal gene transfer in Streptomyces clavuligerus</title>
+      <link>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/iscbsc_webinarseries_2020/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+    <item>
+      <title>In silico detection of an antimicrobial peptide (AMP) transferred horizontally from arthropods to bacteria</title>
+      <link>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/rsg_colombia_sc_2019/</guid>
+      <description>In this section you can find more details about this project.</description>
+    </item>
+    
+  </channel>
+</rss>

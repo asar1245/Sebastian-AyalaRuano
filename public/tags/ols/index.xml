@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OLS on Sebastián Ayala Ruano</title>
+    <link>https://sayalaruano.github.io/tags/ols/</link>
+    <description>Recent content in OLS on Sebastián Ayala Ruano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sayalaruano.github.io/tags/ols/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing Guidelines and Codes of Conduct for Open Projects</title>
+      <link>https://sayalaruano.github.io/talk/ols6_cg_cco_2022/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayalaruano.github.io/talk/ols6_cg_cco_2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
