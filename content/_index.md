@@ -2,13 +2,13 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am a focused and motivated young researcher that has worked in **Bioinformatics** for **four years** at different laboratories. **Phylogenetics** and **Structural Bioinformatics** have been the main topics of this research experience. However, my current interests are devoted to **Network Science**, **Complex Systems**, and **Machine Learning** for drug discovery. Moreover, I am involved in various initiatives to empower Bioinformatics in Ecuador and Latin America.
+description: I am a young researcher and freelance data scientist, currently pursuing a master’s degree in Systems Biology at [Maastricht University](https://www.maastrichtuniversity.nl/nl), the Netherlands. I have worked in **Bioinformatics** and **Cheminformatics** for **five years** at different laboratories. My current research interests are devoted to **Network Science** and **Machine Learning** for drug discovery. I am part of several research, open-science, and software development communities ([ISCBSC](https://iscbsc.org/), [The Carpentries](https://carpentries.org/), [Streamlit Creators](https://streamlit.io/creators), and [Open Life Science](https://openlifesci.org/). Moreover, I am involved in various initiatives to empower Bioinformatics in Ecuador and Latin America.
 image_left: true
 images:
-- img/sayalaruano2.jpg
+- img/sayalaruano3.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Biotechnology | Data science | Bioinformatics | Machine Learning | Network Science
+subtitle: Biotechnology | Systems Biology | Bioinformatics | Data science | Machine Learning | Network Science
 text_align_left: false
 title: Sebastián Ayala Ruano 
 type: home

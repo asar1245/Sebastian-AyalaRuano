@@ -12,7 +12,7 @@ location: Ibagué, Colombia
 draft: false
 layout: single
 categories:
-- Poster presentation 
+- Oral presentation 
 - Bioinformatics
 - Genomics
 tags:

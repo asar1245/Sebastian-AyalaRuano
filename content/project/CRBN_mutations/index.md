@@ -21,7 +21,7 @@ links:
 - icon: play-circle
   icon_pack: fas
   name: Oral presentation (Spanish)
-  url: https://medium.com/@tinkeringwithstuff/corn-disease-detector-cdd-aplicaci%C3%B3n-de-detecci%C3%B3n-de-enfermedades-del-ma%C3%ADz-mediante-redes-96774940dc1c
+  url: https://www.youtube.com/watch?v=7OsBVVZ7i4o
 subtitle: ""
 tags:
 - Human disease 

@@ -6,15 +6,27 @@ categories:
 - Similarity searching
 - Bioinformatics
 - Drug discovery
-date: "2021-09-07"
+date: "2023-01-14"
 draft: false
-excerpt: This project is about the exploration of the **antiparasitic peptides' chemical space** and prediction of new potential compounds through a new approach based on **network science** and **similarity searching**.
+excerpt: This project was about the exploration of the **antiparasitic peptides' chemical space** and prediction of new potential compounds through a new approach based on **network science** and **similarity searching**.
 layout: single
 links:
 - icon: newspaper
   icon_pack: fas
+  name: Publication
+  url: https://doi.org/10.1021/acsomega.2c03398
+- icon: newspaper
+  icon_pack: fas
   name: Preprint
   url: https://doi.org/10.33774/chemrxiv-2021-tgv69
+- icon: file-powerpoint
+  icon_pack: fas
+  name: Slides (English)
+  url: https://doi.org/10.5281/zenodo.6582881
+- icon: play-circle
+  icon_pack: fas
+  name: Oral presentation (English)
+  url: https://www.youtube.com/watch?v=cpcXCdlG1F4
 
 subtitle: ""
 tags:
@@ -22,7 +34,7 @@ tags:
 title: Antiparasitic peptides discovery
 ---
 
-I have contributed to this project as part of my work as **research assistant** at the **Applied Signal Processing and Machine Learning Group** and the and the **Grupo de Medicina Molecular y Traslacional** - Universidad San Francisco de Quito, in Ecuador. 
+I contributed to this project as part of my work as **research assistant** at the **Applied Signal Processing and Machine Learning Group** and the and the **Grupo de Medicina Molecular y Traslacional** - Universidad San Francisco de Quito, in Ecuador. 
 
 ## Summary
 
@@ -61,4 +73,4 @@ After applying our method and additional filters, we proposed **95 repurposed le
 
 ## Citation 
 
-**Ayala-Ruano S**, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2021). **Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching**. ChemRxiv [Preprint]. doi: [doi.org/10.33774/chemrxiv-2021-tgv69](https://doi.org/10.33774/chemrxiv-2021-tgv69).
+**Ayala-Ruano S.**, Marrero-Ponce Y., Aguilera‑Mendoza L., Pérez N., Agüero-Chapin G., Antunes A., Aguilar A. (2022). **Exploring the Chemical Space of Antiparasitic Peptides and Discovery of New Promising Leads through a Novel Approach based on Network Science and Similarity Searching**. *ACS omega*. doi: [doi.org/10.1021/acsomega.2c03398](https://doi.org/10.1021/acsomega.2c03398).

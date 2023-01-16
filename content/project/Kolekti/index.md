@@ -5,13 +5,17 @@ categories:
 - Programming 
 date: "2021-09-07"
 draft: false
-excerpt: In this project, we created a webpage for the Innovation challenge *For more data on labor informality* hackaton. This digital solution aimed to gather information from workers in labor informality and employers, creating a community where all people could interact with each other and create suitable work opportunities.
+excerpt: In this project, we created a webpage for the Innovation challenge *For more data on labor informality* hackathon. This digital solution aimed to gather information from workers in labor informality and employers, creating a community where all people could interact with each other and create suitable work opportunities.
 layout: single
 links:
 - icon: door-open
   icon_pack: fas
   name: Website
   url: https://kolekti-304615.web.app/
+- icon: file-powerpoint
+  icon_pack: fas
+  name: Slides (Spanish)
+  url: https://doi.org/10.5281/zenodo.7536703
 subtitle: ""
 tags:
 - Social project
@@ -45,9 +49,9 @@ Then, three finalists teams were selected to create a prototype of the idea for 
 
 Kolekti was meant to be a friendly and innovative **webpage that gathered information from workers in labor informality and employers**, creating a community where all people could interact with each other and **generating suitable work opportunities**.
 
-In this way, we created a **different way to collect and share data**. Kolekti’s architecture was based on two main data management schemes: **Open Data** and **Data Privacy**. The information would not only be available to everyone and give valuable insight, but it would also be protected, it would be anonymous and **the people who voluntarily share their data, will receive a lot of benefits**. These advantages include access to courses, events, informative blogs, a job portal, and a forum. The only thing we ask from the users in return is that they share their information about their employment status with us. 
+In this way, we created a **different way to collect and share data**. Kolekti’s architecture was based on two main data management schemes: **Open Data** and **Data Privacy**. The information would not only be available to everyone and give valuable insight, but it would also be protected, it would be anonymous and **the people who voluntarily share their data, will receive a lot of benefits**. These advantages included access to courses, events, informative blogs, a job portal, and a forum. The only thing we asked from the users in return was their employment status information.
 
-Our solution would be able to present **reliable and up-to date information about the labor situation in Ecuador**, and at the same time, it would **create a community** in which people can learn, meet other people, solve their doubts and maybe even motivate themselves enough to start their own businesses.
+Our solution was able to present **reliable and up-to date information about the labor situation in Ecuador**, and at the same time, it **created a community** in which people can learn, meet other people, solve their doubts and maybe even motivate themselves enough to start their own businesses.
 
 With this technological solution **we were the winners of this hackaton**. 
 

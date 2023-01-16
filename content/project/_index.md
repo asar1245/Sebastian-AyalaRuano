@@ -1,9 +1,9 @@
 ---
 title: Projects
 author: Sebastián Ayala-Ruano
-description: My portfolio includes projects of research in Bioinformatics, machine learning, web development, and online educational resources I have collaborated with.
+description: My portfolio includes projects Bioinformatics, machine learning, web development, and online educational resources I have collaborated with.
 cascade:
-  show_author_byline: true
+  show_author_byline: false
   show_comments: false
   show_post_date: true
   sidebar:
@@ -11,7 +11,7 @@ cascade:
     text_link_label: View all projects
     text_link_url: /project/
 layout: list-grid
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
 show_post_thumbnail: true
 ---

@@ -3,8 +3,8 @@
 baseURL = "https://sayalaruano.github.io/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "Sebastián Ayala Ruano"
+author = "Sebastián Ayala-Ruano"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = "UA-212436276-1"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -160,6 +160,11 @@ enableEmoji = true
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
+    weight = 2
+  [[menu.footer]]
+    name = "Source code"
+    title = "Source code"
+    url = "https://github.com/sayalaruano/sayalaruano.github.io"
     weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    

@@ -7,7 +7,7 @@ categories:
 - Bioinformatics
 date: "2021-09-07"
 draft: false
-excerpt: In this project, I created machine learning classifiers, including Logistic Regression, Random Forest, and XGBoost, to evaluate the activity of molecules that have been experimentally tested to bind or not bind to [Beta-Lactamases](https://en.wikipedia.org/wiki/Beta-lactamase). Also, I implemented a web service with the best model.
+excerpt: In this project, I created machine learning classifiers (Logistic Regression, Random Forest, and XGBoost) to evaluate the activity of molecules that have been experimentally tested to bind or not bind to [Beta-Lactamases](https://en.wikipedia.org/wiki/Beta-lactamase). Also, I implemented a web service with the best model.
 layout: single
 links:
 - icon: github
@@ -17,7 +17,7 @@ links:
 subtitle: ""
 tags:
 - Python
-title: Drug discovery project to classify ligands that bind to Beta-Lactamases
+title: Prediction of potential drug ligands that bind to Beta-Lactamases
 ---
 I developed this project as the Midterm assignment for the [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp). [Data Professor](https://github.com/dataprofessor) proposed the idea and dataset of this initiative, a collaborative Open Bioinformatics Research Project that is still in progress. 
 
