@@ -34,7 +34,7 @@ git rm -rf .
 msg "Grabbing the public folder from the source to master branch"
 git checkout source public/*
 
-msg "Extracting the files outside the folder adn deleting the folder"
+msg "Extracting the files outside the folder and deleting the folder"
 cp -r public/* ./
 rm -r public
 
